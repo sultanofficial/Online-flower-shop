@@ -1,3 +1,140 @@
-.{
+/* commone css styles */
+*{
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+    font-family: 'Lato', sans-serif;
+}
+ul,li{
+    list-style: none;
+}
+a{
+    text-decoration: none;
+}
+.container{
+    max-width: 1140px;
+    margin: 0 auto;
+}
+/* <!-- First Section Part --> */
+
+#header{
+    background: rgba(229, 84, 115, 0.10);
+}
+.header-wrapper{
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+   
+}
+.header-img{
+    text-align: center;
+    width: 50%;
+}
+.header-text {
+    width: 50%;
+}
+.header-text h1{
+    color: #272727;
+    font-size: 66px;
+    font-weight: 800;
+}
+.header-text p{
+    color: rgba(39, 39, 39, 0.60);
+    font-size: 18px;
+    font-weight: 400;
+    line-height: 30px;
+    padding: 20px 0px;
+}
+
+.btn-primary{
+    padding: 20px 43px;
+    border: none;
+    border-radius: 8px;
+    background: #E55473;
+    transition: all linear 0.2s;
+}
+.btn-primary:hover{
+    background: #000;
     
+}
+.btn-primary a{
+    color: #fff;
+    font-size: 20px;
+    font-weight: 700;
+}
+
+/* <!-- Middle Section Part --> */
+
+#featured{
+    padding: 60px 0px;
+}
+.flower-text{
+    text-align: center;
+}
+.flower-text h1{
+    color: #272727;
+    font-size: 40px;
+    font-weight: 800;
+}
+.flower-text p{
+    color: rgba(39, 39, 39, 0.60);
+    text-align: center;
+    font-size: 18px;
+    font-weight: 400;
+    line-height: 30px;
+    width: 580px;
+    padding: 30px 0px;
+    margin: 0 auto;
+}
+.card-wrapper {
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    
+}
+.flower-images {
+    border-radius: 300px 300px 0px 0px;
+    background: rgba(167, 33, 98, 0.15);
+   
+}
+.flower-images img{
+    padding-top: 40px;
+  
+}
+.detals {
+    text-align: center;
+    margin: 0 auto;
+    border-bottom: 2px solid black!important;
+    width: 50%;
+    margin-top: 20px;
+}
+.detals a {
+    color: #222;
+}
+
+
+/* fh */
+
+
+#support{
+    padding: 60px 0px;
+}
+.support-bg{
+    border-radius: 8px;
+    background: rgba(39, 39, 39, 0.05);
+    display: flex;
+    justify-content: space-around;
+    align-items: center;
+}
+
+.icons{
+    padding: 40px 0px;
+    text-align: center;
+}
+.icons p{
+    color: rgba(39, 39, 39, 0.80);
+    font-size: 18px;
+    font-weight: 400;
+    padding-top: 10px;
+
 }
